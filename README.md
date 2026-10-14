@@ -1,32 +1,60 @@
-# lm7805-regulated-power-supply
-Design and simulation of a regulated 5V DC power supply using the LM7805 voltage regulator in Tinkercad Circuits.
 # LM7805 Regulated 5V Power Supply
 
-## Overview
-This project simulates a regulated 5V DC power supply using the LM7805 voltage regulator in Tinkercad Circuits.
+## 1. Project Overview
 
-## Components
-- LM7805 voltage regulator
-- 9V DC power supply
-- 470Ω load resistor
-- Breadboard and connecting wires
-- Multimeter
+This project demonstrates the design and simulation of a regulated 5V DC power supply using the LM7805 voltage regulator in Tinkercad Circuits. A 9V DC input is converted into an approximately 5V DC output.
 
-## Working Principle
-The LM7805 voltage regulator converts a 9V DC input into an output of approximately 5V DC.
+## 2. Objectives
 
-## Simulation Result
-The multimeter showed an output voltage of approximately 5V during simulation.
+* Understand the working principle of the LM7805 voltage regulator.
+* Design a basic regulated DC power supply.
+* Learn breadboard connections and component placement.
+* Verify the output voltage using a multimeter.
+* Understand the role of capacitors in improving circuit stability.
 
-## Tools Used
-- Autodesk Tinkercad Circuits
-- GitHub
+## 3. Components Used
 
-## Project Status
-Educational circuit simulation; not yet tested as a physical hardware prototype.
+* LM7805 voltage regulator
+* 9V DC power supply
+* 470Ω load resistor
+* 0.33µF input capacitor
+* 0.1µF output capacitor
+* Breadboard and connecting wires
+* Multimeter
 
-## Circuit Screenshot
-See the screenshot uploaded to this repository.
+## 4. Circuit Working
 
-## Tinkercad Circuit Link
-Add your shareable Tinkercad circuit link here.
+The LM7805 is a linear voltage regulator designed to provide a nominal 5V DC output. The 9V input is connected to the regulator's input pin, and the ground pin is connected to the common ground.
+
+The input capacitor helps reduce input voltage fluctuations, while the output capacitor helps improve output stability. A 470Ω resistor is connected between the output and ground as a load.
+
+## 5. Simulation and Results
+
+The circuit was designed and tested using Tinkercad Circuits.
+
+* Input voltage: 9V DC
+* Expected regulated output: approximately 5V DC
+* Observed output: approximately 5V DC on the multimeter
+
+## 6. Tools Used
+
+* Autodesk Tinkercad Circuits
+* GitHub
+
+## 7. Circuit Screenshot
+
+The circuit screenshot is uploaded in this repository.
+
+## 8. Tinkercad Simulation Link
+
+[View the circuit simulation here]https://www.tinkercad.com/things/cKIxoko0QnT/editel?returnTo=%2Fcircuits
+
+## 9. Learning Outcomes
+
+* Basic voltage-regulator circuit design
+* Understanding input and output capacitor placement
+* DC voltage measurement using a multimeter
+* Breadboard wiring and circuit troubleshooting
+* Electronic circuit simulation
+
+
